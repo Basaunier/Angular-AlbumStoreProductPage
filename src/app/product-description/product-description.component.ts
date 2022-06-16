@@ -9,6 +9,7 @@ import { Album } from '../album';
 })
 export class ProductDescriptionComponent implements OnInit {
   albumInfo: Album;
+  private response: Response;
   constructor(private _productService: ProductService) { }
 
   ngOnInit() {
